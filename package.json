@@ -1,0 +1,25 @@
+{
+  "name": "learing-javascript",
+  "version": "1.0.0",
+  "description": "In this chapter we're learning about Git and other development tools.",
+  "main": "index.js",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hochal/LearingJavascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hochal/LearingJavascript/issues"
+  },
+  "homepage": "https://github.com/hochal/LearingJavascript#readme"
+}
