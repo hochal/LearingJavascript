@@ -8,7 +8,7 @@ node_modules
 .DS_Store
 
 # Intellij 속성
-*.xml
+.idea/*
 *.iml
 
 # 임시 파일
