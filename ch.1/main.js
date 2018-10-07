@@ -5,14 +5,13 @@ $(document).ready(function () {
     paper.install(window);
     paper.setup(document.getElementById('mainCanvas'));
 
+var tool = new Tool();
 
-    var c;
-    for(var x=25; x<400; x+=50){
-        for(var y=25; y<400; y+=50){
-            c = Shape.Circle(x,y,20);
-            c.fillColor = 'plum';
-        }
-    }
+tool.onMouseDown = function(event){
+    // var c = Shape.Circle(event.point.x, event.point.y, 20);
+    var c = Shape.Circle(event.point, 20);
+    c.fillColor = 'skyblue';
+};
 
     paper.view.draw();
 
