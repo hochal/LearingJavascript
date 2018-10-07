@@ -9,6 +9,7 @@ node_modules
 
 # Intellij 속성
 *.xml
+*.iml
 
 # 임시 파일
 *.tmp
