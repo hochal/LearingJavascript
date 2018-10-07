@@ -7,6 +7,9 @@ node_modules
 # macOS 폴더 속성
 .DS_Store
 
+# Intellij 속성
+*.xml
+
 # 임시 파일
 *.tmp
 *~
