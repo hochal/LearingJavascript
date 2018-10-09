@@ -1,0 +1,20 @@
+"use strict";
+
+var count = 10;
+var blue = 0xff;
+var umask = 18;
+var roomTemp = 21.5;
+var c = 3.0e6;
+var e = -1.6e-19;
+var inf = Infinity;
+var ninf = -Infinity;
+var nan = NaN;
+console.log('count - ', count);
+console.log('blue - ', blue);
+console.log('umask - ', umask);
+console.log('roomTemp - ', roomTemp);
+console.log('c - ', c);
+console.log('e - ', e);
+console.log('inf - ', inf);
+console.log('ninf - ', ninf);
+console.log('nan - ', nan);
